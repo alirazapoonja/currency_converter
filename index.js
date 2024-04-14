@@ -16,7 +16,7 @@ let user_answer = await inquirer.prompt([
     },
     {
         name: 'to',
-        message: 'Enter from Currency',
+        message: 'Enter your Currency to convert',
         type: 'list',
         choices: ['USD', 'EUR', 'GBP', 'INR', 'PKR'],
     },
